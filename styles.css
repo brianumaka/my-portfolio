@@ -1,0 +1,62 @@
+body{
+  font-family: Arial, Helvitica, sans-serif;
+}
+
+*{
+ box-sizing: border-box;
+}
+
+.bg-img{
+  background-image: url("image/bg.JPG");
+  min-height: 790px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  position: relative; 
+}
+
+​.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+.topnav {
+  overflow: relative;
+  background-color: rgb(74, 87, 85);
+  margin-left: 560px;
+  height: 36px;
+}
+
+.topnav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 17px; 
+}
+  
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+  margin-left: 560px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
