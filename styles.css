@@ -22,10 +22,10 @@ body{
 }
 
 .topnav {
-  overflow: relative;
-  background-color: rgb(74, 87, 85);
   margin-left: 560px;
   height: 36px;
+  padding: 0.1px;
+  background-color: #2c3533; 
 }
 
 .topnav a {
@@ -44,7 +44,7 @@ body{
 
 
 .header {
-  padding: 80px;
+  padding: 20px;
   text-align: center;
   background: #1abc9c;
   color: white;
@@ -52,11 +52,23 @@ body{
   margin-left: 560px;
 }
 
+P {
+  color: rgb(87, 79, 74);     
+}
+
 input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
   }
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #1abc9c;
+ color: white;
+}
+  
